@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+	<title>extensify</title>
+	
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="preloader">
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66340950-1', 'auto');
+  ga('send', 'pageview');
+
+</script>	<div class="background">
+		<div class="layer background-slider" data-timeout="10000">
+			<div class="item" style="background-image: url(content/bg-1.jpg);"></div>
+			<div class="item" style="background-image: url(content/bg-2.jpg);"></div>
+		</div>
+		<div class="layer" style="background: linear-gradient(to bottom,rgba(186, 179, 254, 0.5) 0%,rgba(102, 214, 255, 0.5) 100%);"></div>
+		<div class="layer" style="background: #182025 url(../img/pattern.png) 0 0 repeat;opacity: .9;"></div>
+	</div>
+
+	<div class="map-canvas" data-map-lon="40.707476" data-map-lat="-74.013670"></div>
+	
+	<div id="wrapper">
+		<header class="container">
+			<div class="logo"><img src="img/extensify.png" style="max-width:100px;" alt=""></div>
+		</header>
+
+		<main>
+			
+			<div class="container">
+				
+				<nav class="pages-nav" style="text-align: center;">
+
+					<div id="nav-prev">
+						<a href="#"></a>
+					</div>
+
+					<div id="nav-next">
+						<a href="#"></a>
+					</div>
+
+					<div id="nav-close">
+						<a href="#">X</a>
+					</div>
+
+				</nav>
+
+				<div class="modal" id="notify" data-nav-color="#9f0">
+					
+					<h1 class="block" data-type="title-modal">
+						Notify me
+					</h1>
+					
+					<p class="block" data-type="text">
+						Be the first to know when we launch.
+					</p>
+					
+					<form class="block notify-me" data-type="form" method="post" action="php/notify-me.php">
+						<div data-type="input" class="no-enter">
+							<input type="text" class="input-log" name="subscribe">
+							<div class="cmd">
+								<span></span>
+								<div class="cursor"></div>
+								<div class="enter-sumbol">
+									<button type="submit"><img src="img/arrow.svg" alt=""></button>
+								</div>
+							</div>
+						</div>
+						<div data-type="hide" data-row="messages">
+						</div>
+					</form>
+
+				</div>
+
+				<div class="modal" id="sayhello" data-map="true" data-nav-color="#ff0">
+					<h1 class="block" data-type="title-modal">
+						Say hello
+					</h1>
+					<form role="form" data-type="form" method="post" class="sayhello-form block">
+						<div class="form-input">
+							<input type="text" name="name" placeholder="Name:">
+							<div class="cmd">
+								<span></span>
+								<div class="cursor"></div>
+							</div>
+						</div>
+						<div class="form-input">
+							<input type="email" name="email" placeholder="Mail:">
+							<div class="cmd">
+								<span></span>
+								<div class="cursor"></div>
+							</div>
+						</div>
+						<div class="form-input">
+							<input type="text" name="comment" placeholder="Text:">
+							<div class="cmd">
+								<span></span>
+								<div class="cursor"></div>
+							</div>
+						</div>
+						<div class="form-button">
+							<button type="submit" data-color="#ff0">send</button>
+						</div>
+					</form>
+				</div>
+
+				<section class="page" data-nav="home" data-nav-color="#9f0" id="home">
+
+					<div class="block countdown" data-type="timer" data-time="17 september 2015 23:59">
+						<div class="innertime"></div>
+					</div>
+
+					<nav class="block" id="home-nav" data-type="nav">
+						<a href="#notify" data-nav-color="#0f0" class="link">notify me</a>
+					</nav>
+					
+				</section>
+
+				<section class="page" data-nav="about" data-nav-color="#f63" id="about">
+					<h1 class="block" data-type="title">
+						About
+					</h1>
+					<p class="block" data-type="text">
+						It has been hard to wait so long for jailbreak releases, well not anymore.
+
+						we're launching this fall!
+					</p>
+
+				</section>
+					
+				<section class="page" data-nav="contact" data-nav-color="#3ff" data-map="true" id="contact">
+					<h1 class="block" data-type="title">
+						Contact
+					</h1>
+
+					<div class="contact-submit block" data-type="link">
+						<a href="#sayhello" class="link" data-nav-color="#ff0">say hello</a>
+					</div>
+
+				</section>
+
+				<canvas id="area" width="991" height="350"></canvas>
+				
+			</div>
+					
+		</main>
+
+		<footer class="container">
+			<div class="follow">
+				<div class="follow-name">Connect with us</div>
+				
+				<div class="follow-wrap">
+					<div class="follow-icons">
+						<a href="http://twitter.com/ExtensifyApp"><i class="fa fa-twitter"></i></a>
+						<!--					
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+						<a href="#"><i class="fa fa-tumblr"></i></a> 
+						-->
+					</div>
+				</div>
+				
+			</div>
+			<div class="copyright">©  extensify.io, 2015.</div>
+		</footer>
+		
+	</div>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.touchSwipe.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+	<script src="js/crypto.js"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+</html>	
