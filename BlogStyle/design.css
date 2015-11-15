@@ -1,0 +1,21 @@
+.previewblock {
+	background: #fff;
+	width: 300px;
+	height: 106px;
+	padding: 10px;
+	overflow: hidden;
+	float: left;
+	margin-left: 6px;
+}
+.photothumbnail {
+	float: left;
+    border: 3px #333 solid;
+    height: 100px;
+    width: 100px;
+    margin-right: 10;
+}
+.previewblock h3 {
+	margin-top: 5px;
+    margin-bottom: 0px;
+}
+.previewblock span {}
