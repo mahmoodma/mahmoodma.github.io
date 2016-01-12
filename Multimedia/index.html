@@ -2,17 +2,69 @@
 
 <html>
 	<head>
-		<link rel="shortcut icon" href="https://mahmoodma.github.io/favicon.ico">
+		<link rel="shortcut icon" href="https://mahmoodma.github.io/img/favicon.ico">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
+		body
+        {
+            background: url('https://mahmoodma.github.io/img/bg.jpg');
+            color: #262626;
+            font-family: "微軟正黑體", "Microsoft JhengHei", Ubuntu, sans-serif;
+            font-size: 150%;
+            font-weight: 400;
+            height: 100%;
+            margin: 0;
+            min-height: 100%;
+            overflow-x: hidden;
+            padding: 0;
+            webkit-font-smoothing: antialiased;
+            width: 100%;
+        }
+		
+		ul 
+		{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			border: 1px solid #e7e7e7;
+			background-color: #f3f3f3;
+		}
+
+		li 
+		{
+			float: left;
+		}
+
+		li a 
+		{
+			display: block;
+			color: #666;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) 
+		{
+			background-color: #ddd;
+		}
+
+		li a.active 
+		{
+			color: white;
+			background-color: #4CAF50;
+		}
+		
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img 
+		{
+			width: 70%;
+			margin: auto;
+		}
 		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -31,7 +83,7 @@
 	    <div class="navbar-header">
 		    <ul class="nav navbar-nav">
 			  <li><a href="https://mahmoodma.github.io/">首頁</a></li>
-		      <li class='active'><a href="index.html">2015 多媒體製作</a></li>
+		      <li><a class="active" href="index.html">2015 多媒體製作</a></li>
 			  <li><a href="essay1.html">作業一 網頁製作及影像合成</a></li>
 			  <li><a href="essay2.html">作業二 Flash動畫製作或視訊剪接</a></li>
 		    </ul>
@@ -40,12 +92,12 @@
 
 		<div class="container">
 			<div class="text-center">
-				<img src="https://i.imgur.com/QmA6x7U.png" width="262px"/>
+				<img src="https://mahmoodma.github.io/img/horse_logo.png" style="width:280px;height:231px;">
 				<h1>小馬的網管設計中心</h1>
 			</div>
 			<h2>歡迎來到我的2015多媒體製作課程作業發布區</h2>
 			<br>
-			<h4><ul><li><a href="http://cad.csie.ntu.edu.tw/rfchang2/" target="_blank">多媒體製作by張瑞峰教授 課程網頁</a></li></ul></h4>
+			<h4><ul><a href="http://cad.csie.ntu.edu.tw/rfchang2/" target="_blank">多媒體製作by張瑞峰教授 課程網頁</a></ul></h4>
 			<br>
 			<h3><b>作業二 Flash動畫製作或視訊剪接</b></h3>
 			<h3>影片剪接成果展示：</h3>
