@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://mahmoodma.github.io/iOS/WeChat/dl_file/tv.othman.wechat4.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://is4.mzstatic.com/image/thumb/Purple6/v4/41/34/16/41341632-9680-b6bc-c9b9-29f209660ec7/source/512x512bb.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>tv.othman.wechat4</string>
+				<key>bundle-version</key>
+				<string>6.3.6</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>WeChat 4</string>
+				<key>title</key>
+				<string>WeChat 4 by AppleQ</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
