@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://mahmoodma.github.io/iOS/Facebook/dl_file/tv.othman.facebook3.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://is2.mzstatic.com/image/thumb/Purple69/v4/57/03/61/57036141-5039-e798-25bb-8810bae67f59/source/512x512bb.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>tv.othman.facebook3</string>
+				<key>bundle-version</key>
+				<string>43.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>Facebook 3</string>
+				<key>title</key>
+				<string>Facebook 3 by AppleQ</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
