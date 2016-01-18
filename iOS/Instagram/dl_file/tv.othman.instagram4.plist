@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://mahmoodma.github.io/iOS/Instagram/dl_file/tv.othman.instagram4.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://is2.mzstatic.com/image/thumb/Purple69/v4/9a/55/cf/9a55cf86-e9b4-5023-84c4-b2d8b8ae184c/source/512x512bb.jpg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://is2.mzstatic.com/image/thumb/Purple69/v4/9a/55/cf/9a55cf86-e9b4-5023-84c4-b2d8b8ae184c/source/512x512bb.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>tv.othman.instagram4</string>
+				<key>bundle-version</key>
+				<string>7.11.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>Instagram 4</string>
+				<key>title</key>
+				<string>Instagram 4 by AppleQ</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
