@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LINE貼圖下載器</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+<style type="text/css">
+body {
+ background-color: #fff;
+ margin: 0px;
+ padding: 0px;
+ width: 810px;
+ overflow: hidden;
+ font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+ font-size: 11px;
+ color:#333;
+}
+</style>
+<script>
+function sticker(){
+var url = document.getElementById("url").value;
+var dl = new Array();
+var dl = url.split("/");
+document.getElementById("download").src = "https://sdl-stickershop.line.naver.jp/products/0/0/1/"+dl[5]+"/ANDROID/stickers.zip"; 
+}
+function messages(){
+document.getElementById("messages").innerHTML = "<a style='color:#505050' onclick='sample()'target='_blink' href='https://store.line.me/stickershop/home/general/zh-Hant'><pre>到這邊複製你想下載的貼圖網址</pre></a>";
+}
+function sample(){
+document.getElementById("messages").innerHTML = "<pre style='color:#505050'>例如https://store.line.me/stickershop/product/6091/zh-Hant</pre>";
+document.getElementById("img").innerHTML = "<img src='https://media.line.me/img/button/en/40x40.png'>";
+}
+function dlzip(){
+var url = document.getElementById("url").value;
+if(url==""){
+document.getElementById("messages").innerHTML = "<pre style='color:#505050'>請輸入貼圖網址</pre>";
+}
+else if(url.slice(0,42)!="https://store.line.me/stickershop/product/"){
+document.getElementById("messages").innerHTML = "<pre style='color:#505050'>請輸入正確網址，例如 https://store.line.me/stickershop/product/6091/zh-Hant</pre>";
+}
+else{
+document.getElementById("copyright").innerHTML = "<pre style='color:#505050'>此下載內容版權為LINE官方所有<br>本頁面僅提供LINE官方提供之公開內容<br>請勿變造、再製、轉賣等違反著作之行為<br>本頁面不提供動態貼圖下載與貼圖破解服務<br>如果喜歡此貼圖請至<a style='color:#505050' onclick='sample()'target='_blink' href='https://store.line.me/stickershop/home/general/zh-Hant'>LINE貼圖商店</a>購買</pre>";
+document.getElementById("messages").innerHTML = "<pre style='color:#505050'>↑點擊圖片下載↑<br>點擊下載視同同意以下服務條款</pre>";
+document.getElementById("img").innerHTML = "<img src='https://media.line.me/img/button/en/40x40.png' onclick='sticker()'>";
+}
+}
+</script>
+
+<body style="background-color:#00c300;">
+<div align="center" valign="center">
+<div id="img">
+<img src="https://media.line.me/img/button/en/40x40.png" onmouseover="messages()">
+</div>
+<div id="messages"></div>
+<div>
+<input type="text" id="url" value="" onclick="dlzip()" style="border:5px #00c300 dotted;" placeholder="貼上網址">
+</div>
+<iframe width="0px" height="0px" frameborder="0" scrolling="no" id="download" src=""></iframe>
+<div id="copyright"></div>
+<div>
+<pre style="color:#505050">Place Holder</pre><br>
+</div>
+</div>
+</body>
+</html> 
